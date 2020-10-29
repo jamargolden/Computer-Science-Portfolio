@@ -1,0 +1,18 @@
+README
+
+Description:
+This Application is used to find the number of Distinct Words within a given .txt file as 
+well as the frequency of each string. Each string is individually printed with its
+respective string length and frequency in the document. The application also gives the
+documents total word count and line count.
+
+Instructions:
+This application is very simple, this file is already loaded with two .txt files (tinyTale.txt
+and tale.txt) allowing you to just run the file as is. if you would like to change the file
+to one of the given files or your own you will have to locate the "Run" file then go to the "main"
+function and change the .txt file name in the test variable. 
+*Make sure that the .txt file is in the correct file system
+
+What I learned:
+The skills that were gained from this project were learning to read files from another as well as
+how to gather and review data. 
