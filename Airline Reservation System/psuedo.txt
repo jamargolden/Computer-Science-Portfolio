@@ -1,0 +1,66 @@
+int names[][]//Holds all names associated with seats
+int seats[][]//Holds all seats and tells if the seat is taken or not
+Main()
+While{
+//Holds the if statements of the main menu
+}
+
+firstClass(){
+For(){
+  For(){
+   //Double nested for loop that checks if Class is full
+   //Asks if Business is ok
+
+//For Loops that print out an layout of the plane
+
+//Asks for seat the passenger wants
+//If full denies the seat
+
+//If open fills the seat and asks for a name
+}
+
+
+businessClass(){
+For(){
+  For(){
+   //Double nested for loop that checks if Class is full
+   //IF full ask if Economy is ok
+
+//For Loops that print out an layout of the plane
+
+//Asks for seat the passenger wants
+//If full denies the seat
+
+//If open fills the seat and asks for a name
+}
+
+
+EconomyClass(){
+For(){
+  For(){
+   //Double nested for loop that checks if Class is full
+
+//For Loops that print out an layout of the plane
+
+//Asks for seat the passenger wants
+//If full denies the seat
+
+//If open fills the seat and asks for a name
+}
+
+List(){
+For(){
+//Double nested for loop
+//Prints the list of names in table 
+}
+
+BPass(){
+//Asks for the name to search
+For(){
+//Double nested loop
+//Goes through the names array
+//Compares the search with the current name in the names array
+//if it equals breaks loop
+//Print name seat and Class
+}
+}
