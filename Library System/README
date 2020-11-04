@@ -1,0 +1,14 @@
+LIbrary System Group Project
+
+Description:
+This Application is a complete library system that includes a sign-in, Book checkout/return, Penalty, and Inventory mechanics.
+This program also has the ability to save the information from previous sessions. There are two possible account types including
+Librarian and Student, both having their own respective abilities. When it comes to the Librarian you have the ability to add, modify, and
+remove books as well as view students accounts and asign penalties if need be and view the status of all the books. As a student you have
+the ability to search for books by various different descriptors, Login/Register, Check-Out/Return Books, and pay penalty fees. 
+
+What I learned:
+Whith this being a group project it gave me much needed experience in colaborating on a project. It taught me how to gelegate tasks
+for a group and check-in to enusre that everyones tasks get done in a timely matter. This experience helped me understand the importance
+in making readable code so that your peers can understand it as well as ensuring everyone is on the same page so that all the code 
+can work together properly.
