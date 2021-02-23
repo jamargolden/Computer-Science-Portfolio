@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Golden Hour Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    
+  </head>
+  <body>
+      <div class="content">
+        
+          <h1 class="location" id="currentLocal">Location</h1>
+          <img id="weatherIcon" src="img/Clear.png">
+          <h3 class="temp" id="temperature">47°</h3>
+          <h3 id="description" class="weatherDes">Description</h3>
+          <h3 class="maxMin">Temperature Min/Max:</h3>
+          <h3 class="mmTemp" id="minMaxTemp">27°/30°</h3>
+          <h3 class="feels">Feels Like:</h3>
+          <h3 class="fTemp" id="fLike">47°</h3>
+      </div>
+      <div class="sBar">
+        <input type="text" id="searchBox" class="searchB">
+        <img id="search" src="img/search.png" onclick="makeSearch()">
+      </div>
+      
+  </body>
+</html>

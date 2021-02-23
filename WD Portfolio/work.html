@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Jamar Golden</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="icon" href="img/Golden Logo.png">
+            <script src="app.js"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="nav">
+                <div class="logo">
+                  <img src="img/Golden Logo.png" alt="Jamar Golden Logo">
+                </div>
+                <ul class="nav-links animate" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+                <div class="burger burgerChange" onclick="slide()">
+                  <div class="line1 bColor"></div>
+                  <div class="line2 bColor"></div>
+                  <div class="line3 bColor"></div>
+                </div>
+            </div>
+
+            <div class="work">
+                <div class="headDiv">
+                    <img src="img/work.png" class="head">
+                </div>
+                <div class="login entry">
+                    <h3 class="name">Sign Up/Login App</h3>
+                    <div class="middle">
+                        <img class="thumbnails" src="img/login app thumbnail.jpg">
+                        <div class="buttons">
+                            <button id="loginGit" class="links inAnimation" onmouseout="offHover('loginGit')" onmouseover="hover('loginGit')"><a class="inAnimation" href="https://github.com/jamargolden/Computer-Science-Portfolio/tree/main/Login">GitHub</a></button>
+                            <button id="loginLive" class="links inAnimation" onmouseout="offHover('loginLive')" onmouseover="hover('loginLive')"><a class="inAnimation" href="Login/index.php">Live View</a></button>
+                        </div>
+                    </div>
+                    <p class="description">Standard sign up and login system that allows the user to create an account and login which they are then greeted with a welcome screen.</p>
+                </div>
+                <div class="weather entry">
+                    <h3 class="name">Weather App</h3>
+                    <div class="middle">
+                        <img class="thumbnails" src="img/weather app thumbnail.jpg">
+                        <div class="buttons">
+                            <button id="weatherGit" class="links inAnimation" onmouseout="offHover('weatherGit')" onmouseover="hover('weatherGit')"><a class="inAnimation" href="https://github.com/jamargolden/Computer-Science-Portfolio/tree/main/Weather%20App">GitHub</a></button>
+                            <button id="weatherLive" class="links inAnimation" onmouseout="offHover('weatherLive')" onmouseover="hover('weatherLive')"><a class="inAnimation" href="Weather App/index.html">Live View</a></button>
+                        </div>
+                    </div>
+                    <p class="description">Standard wearther application that displays the temperature and weather conditions of current location or inputed zip-code.</p>
+                </div>
+            </div>
+        </body>
+    </html>

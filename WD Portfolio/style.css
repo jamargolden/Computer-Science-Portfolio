@@ -1,0 +1,510 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Home CSS Desktop
+*/
+.nav{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 1;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    width: 55%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #f3d380;
+}
+.nav-links li{
+    font-family: "Quicksand";
+    list-style: none;
+}
+.title{
+    position: absolute;
+    top: 30vh;
+    height: 25vh;
+}
+.logo{
+    padding-top: 2vh;
+}
+.logo img{
+    height: 8vh;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0vh;
+    background-image: radial-gradient(#272626, black);
+}
+.home h1{
+    font-family: "Cinzel";
+    position: absolute;
+    top: 37vh;
+}
+.home h4{
+    font-family: "Quicksand";
+    position: absolute;
+    top: 55vh;
+    color: #f3d380;
+}
+.myResume{
+    height: 5vh;
+    width: 15vh;
+    font-family: "Quicksand";
+    position: absolute;
+    top: 65vh;
+    background-color: transparent;
+}
+.myResume a{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;  
+}
+.inAnimation{
+    color: #f3d380;
+    border: solid #f3d380;
+    transition: all 0.5s ease-in;
+}
+.icons{
+    position: absolute;
+    top: 75vh;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+.git{
+    width: 1.5vw;
+}
+.insta{
+    width: 1.5vw;
+}
+.linkedin{
+    width: 1.5vw;
+}
+#lineart{
+    width: 40vw;
+    position: absolute;
+    bottom: 0vh;
+    z-index: -1;
+}
+.work{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 100vh;
+    background-color: gold;
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Home CSS Desktop END
+*/
+
+
+    /* Work CSS Desktop
+    */
+    .work{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .headDiv{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head{
+        width: 25vh;
+        position: absolute;
+        top: 18vh;
+    }
+    .name{
+        font-family: "Quicksand";
+        color: #f3d380;
+        font-size: 4vh;
+    }
+    .description{
+        font-family: "Quicksand";
+        color: #f3d380;
+        font-size: 2vh;
+        text-align: center;
+        width: 25vw;
+    }
+    .entry{
+        width: 100vw;
+        position: absolute;
+        top: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        display: flex;
+        flex-direction: row;
+    }
+    .thumbnails{
+        height: 12vh;
+        border: solid #f3d380;
+        margin: 1vh;
+    }
+    .links{
+        font-family: "Quicksand";
+        color: #f3d380;
+        background-color: transparent; 
+        width: 15vh;
+        height: 5vh;
+        margin: 1vh;
+    }
+    .buttons a{
+        text-decoration: none;
+        border: none;
+        background-color: transparent; 
+    }
+    .weather{
+        position: absolute;
+        top: 65vh;
+    }
+    .login{
+        position: absolute;
+        top: 30vh;
+    }
+/* Work CSS Desktop END
+    */
+
+    /* About CSS Desktop*/
+    .about{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .aboutHead{
+        width: 30vh;
+        position: absolute;
+        top: 20vh;
+    }
+    .about p{
+        color: #f3d380;
+        font-size: 3.5vh;
+        text-align: justify;
+        font-family: "Quicksand";
+        width: 40vw;
+        position: absolute;
+        top: 30vh;
+    }
+    /* About CSS Desktop END*/
+
+
+    /* Contat Me CSS Desktop
+    */
+    .contact{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .conDiv{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactHead{
+        width: 30vh;
+        position: absolute;
+        top: 20vh;
+    }
+    .contact p{
+        color: #f3d380;
+        font-size: 3.5vh;
+        text-align: justify;
+        font-family: "Quicksand";
+        width: 40vw;
+        position: absolute;
+        top: 30vh;
+    }
+    .contact a{
+        color: white;
+    }
+@media only screen and (max-width: 768px){
+    /* Homepage CSS Code
+    */
+    .burger{
+        display: block;
+        cursor: pointer;
+        z-index: 3;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        height: 100vh;
+        position: absolute;
+        top: 0vh;
+        background-color: #f3d380;
+        transition: right 0.5s ease-in;
+        z-index: 1;
+        margin-top: -2vh;
+    }
+    .nav{
+        margin-top: 2vh;
+    }
+    .animate{
+        right: -50vw;
+        transition: right 0.5s ease-in;
+    }
+    .nav-links li{
+        font-family: "Quicksand";
+        list-style: none;
+        margin-top: 10vh;
+    }
+    .nav-links a{
+        color: black;
+    }
+    .burger div{
+        height: 2px;
+        width: 25px;
+        margin: 5px;
+    }
+    .bColor{
+        background-color: #f3d380;
+    }
+    .home{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 0vh;
+        background-image: radial-gradient(#272626, black);
+    }
+    .title{
+        position: absolute;
+        top: 30vh;
+        height: 15vh;
+    }
+    .home h4{
+        font-family: "Quicksand";
+        position: absolute;
+        top: 45vh;
+        color: #f3d380;
+    }
+    .myResume{
+        height: 5vh;
+        width: 15vh;
+        font-family: "Quicksand";
+        position: absolute;
+        top: 60vh;
+    }
+    .myResume a{
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        color: #f3d380;
+    }
+    .icons{
+        position: absolute;
+        top: 80vh;
+        display: flex;
+        justify-content: space-around;
+        width: 70vw;
+    }
+    #bracket{
+        width: 20vw;
+        position: absolute;
+        top: 32vh;
+    }
+    .git{
+        width: 5vw;
+    }
+    .insta{
+        width: 5vw;
+    }
+    .linkedin{
+        width: 5vw;
+    }
+    #lineart{
+        width: 80vw;
+        position: absolute;
+        bottom: 1vh;
+        z-index: -1;
+    }
+    .inAnimation{
+        background-color: transparent;
+        border: solid #f3d380;
+        transition: all 0.5s ease-in;
+    }
+    /* Home CSS END
+    */
+
+
+    /* Work CSS Mobile
+    */
+    .work{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .headDiv{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head{
+        width: 25vh;
+        position: absolute;
+        top: 18vh;
+    }
+    .name{
+        font-family: "Quicksand";
+        color: #f3d380;
+        font-size: 4vh;
+    }
+    .description{
+        font-family: "Quicksand";
+        color: #f3d380;
+        font-size: 2vh;
+        text-align: center;
+        width: 74vw;
+    }
+    .entry{
+        width: 100vw;
+        position: absolute;
+        top: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        display: flex;
+        flex-direction: row;
+    }
+    .thumbnails{
+        height: 12vh;
+        border: solid #f3d380;
+        margin: 1vh;
+    }
+    .links{
+        font-family: "Quicksand";
+        color: #f3d380;
+        background-color: transparent; 
+        width: 15vh;
+        height: 5vh;
+        margin: 1vh;
+    }
+    .buttons a{
+        text-decoration: none;
+        border: none;
+        background-color: transparent; 
+    }
+    .weather{
+        position: absolute;
+        top: 65vh;
+    }
+    .login{
+        position: absolute;
+        top: 30vh;
+    }
+    /* Work CSS Mobile END */
+
+    /* About CSS Mobile*/
+    .about{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .aboutHead{
+        width: 30vh;
+        position: absolute;
+        top: 20vh;
+    }
+    .about p{
+        color: #f3d380;
+        font-size: 3.5vh;
+        text-align: justify;
+        font-family: "Quicksand";
+        width: 80vw;
+        position: absolute;
+        top: 30vh;
+    }
+    /* About CSS Mobile END*/
+
+    .contact{
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(#272626, black);
+        position: absolute;
+        top: 0;
+    }
+    .conDiv{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactHead{
+        width: 30vh;
+        position: absolute;
+        top: 20vh;
+    }
+    .contact p{
+        color: #f3d380;
+        font-size: 3.5vh;
+        text-align: justify;
+        font-family: "Quicksand";
+        width: 80vw;
+        position: absolute;
+        top: 30vh;
+    }
+    .contact a{
+        color: white;
+    }
+}

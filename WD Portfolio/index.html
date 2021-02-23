@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jamar Golden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Golden Logo.png">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="img/Golden Logo.png" alt="Jamar Golden Logo">
+      </div>
+      <ul class="nav-links animate" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+      <div class="burger burgerChange" onclick="slide()">
+        <div class="line1 bColor"></div>
+        <div class="line2 bColor"></div>
+        <div class="line3 bColor"></div>
+      </div>
+    </div>
+    <div id="banner" class="home">
+      
+      <h4 id="jobTitle">Web Developer</h4>
+      <button id="resume" class="myResume inAnimation" onmouseout="offHover('resume')" onmouseover="hover('resume')"><a class="inAnimation" href="files/Resume.docx">RESUME</a></button>
+      <div class="icons">
+        <a href="https://github.com/jamargolden/Computer-Science-Portfolio"><img class="git" src="img/Git.png"></a>
+        <a href="https://www.instagram.com/jamargoldn/"><img class="insta" src="img/Instagram.png"></a>
+        <a href="https://www.linkedin.com/in/jamar-golden-232b4513b/"><img class="linkedin" src="img/Linkedin.png"></a>
+        
+      </div>
+      <img src="img/Name.png" class="title">
+    </div>
+  </body>
+</html>
